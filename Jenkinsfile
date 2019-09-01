@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/SimplilearnDevOpsOfficial/DockerizeJenkins.git'
+        git 'https://github.com/vosr17/Dockerizedjenkins.git'
       }
     }
     stage('Build') {
